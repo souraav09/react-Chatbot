@@ -1,12 +1,50 @@
-# React + Vite
+#  Gemini Chatbot (React + Vite)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a responsive chatbot built using **React + Vite**, powered by **Google's Gemini Pro API**.  
+It allows real-time communication with an AI assistant and is styled to be clean, responsive, and user-friendly.
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-## Expanding the ESLint configuration
+##  Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- 🤖 Chat with Gemini AI
+- 🕐 "Thinking..." placeholder while generating responses
+- 📱 Fully responsive (mobile + desktop)
+- 🎨 Clean UI with custom styles and scrollbar
+- 💬 User messages (right), Bot messages (left)
+
+---
+
+##  Tech Stack
+
+- **React + Vite**
+- **CSS** (custom styling)
+- **Google Gemini API**
+- **Netlify** (for deployment)
+
+---
+
+## 🔴 Live Demo
+
+👉 **[Visit Chatbot Live](https://souravchatbot.netlify.app/)**
+
+---
+
+## 🖥️ Screenshots (optional)
+
+_Add screenshot image here if available_
+
+---
+
+## ⚙️ Installation
+
+```bash
+# 1. Clone the repository
+git clone https://github.com/your-username/gemini-chatbot.git
+cd gemini-chatbot
+
+# 2. Install dependencies
+npm install
+
+# 3. Run the development server
+npm run dev
